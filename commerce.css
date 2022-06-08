@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#green {
+    color: rgb(69, 158, 69);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    color: black;
+    height: 50px;
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: black;
+
+    padding: 5px 50px;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+    color: #293241;
+    border-radius: 20px;
+
+
+}
+
+nav h1 {
+    margin-left: 10px;
+}
+
+#middle {
+    padding: 20px;
+    text-align: center;
+}
+
+#blue {
+    color: blue;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
